@@ -1,0 +1,51 @@
+/* Base theme variables */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --card-bg: #f5f5f5;
+    --button-bg: #007bff;
+    --button-text: #ffffff;
+    /* === Dock specific variables === */
+    --dock-bg: #f9f9f9;
+    --dock-border:  #2a2a40 ;
+    --dock-item-bg: #f1f0f3;
+    --dock-item-border: #f3f0f0;
+    --dock-label-bg: #060010;
+    --dock-label-color: #ffffff;
+    --dock-label-border: #222222;
+}
+
+/* Dark theme overrides */
+[data-theme='dark'] {
+    --bg-color: #121212;
+    --text-color: #f1f1f1;
+    --card-bg: #1e1e1e;
+    --button-bg: #444444;
+    --button-text: #ffffff;
+    /* === Dock specific variables === */
+    --dock-bg: #1e1e2f;
+    --dock-border: #fdfcfc;
+    --dock-item-bg: #2b2b3d;
+    --dock-item-border: #3a3a50;
+    --dock-label-bg: #f1f1f1;
+    --dock-label-color: #121212;
+    --dock-label-border: #aaaaaa;
+}
+
+/* Apply variables to UI */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
