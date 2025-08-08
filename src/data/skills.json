@@ -1,0 +1,6 @@
+
+{
+  "frontend": ["React", "Angular", "JavaScript", "TypeScript", "HTML5", "CSS", "SCSS"],
+  "backend": ["Node.js", "Express", "MongoDB", "MySQL"],
+  "tools": ["Git", "Docker", "Webpack", "Babel"]
+}
