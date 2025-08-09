@@ -1,33 +1,51 @@
-import { useTheme } from './context/ThemeContext';
-import { FaGithub, FaLinkedin, FaInstagram, FaMoon, FaSun } from 'react-icons/fa';
-import { VscHome, VscArchive, VscAccount, VscSettingsGear } from "react-icons/vsc";
-import Dock from './components/Dock/Docks';
-import './App.css';
+import { useTheme } from "./context/ThemeContext";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaMoon,
+  FaSun,
+} from "react-icons/fa";
+import {
+  VscHome,
+} from "react-icons/vsc";
+import Dock from "./components/Dock/Docks";
+import "./App.css";
+import aboutData from "./data/about.json";
+import { MdEmail } from "react-icons/md";
 
 function App() {
   const { theme, toggleTheme } = useTheme(); // ✅ Fixed
 
   const items = [
-      { icon: <VscHome size={18} />, label: 'Home', onClick: () => alert('Home!') },
+    {
+      icon: <VscHome size={18} />,
+      label: "Home",
+      onClick: () => alert("Home!"),
+    },
     {
       icon: <FaGithub size={18} />,
-      label: 'GitHub',
-      onClick: () => window.open('https://github.com/Vishal-Yadav-001', '_blank')
+      label: "GitHub",
+      onClick: () => window.open(aboutData.github, "_blank"),
     },
     {
       icon: <FaLinkedin size={18} />,
-      label: 'LinkedIn',
-      onClick: () => window.open('https://www.linkedin.com/in/vishal-yadav-741956222/', '_blank')
+      label: "LinkedIn",
+      onClick: () => window.open(aboutData.linkedin, "_blank"),
+    },
+    {
+      icon: <MdEmail size={18}  />,
+      label: "Email",
+      onClick: () => window.open(aboutData.email, "_blank"),
     },
     {
       icon: theme === "light" ? <FaMoon size={18} /> : <FaSun size={18} />,
-      label: 'Toggle Theme',
-      onClick: toggleTheme
-    }
+      label: "Toggle Theme",
+      onClick: toggleTheme,
+    },
   ];
 
   return (
-    <div className='container'>
+    <div className="container">
       Hello
       <Dock
         items={items}
@@ -37,7 +55,6 @@ function App() {
         distance={140}
       />
     </div>
-
   );
 }
 
