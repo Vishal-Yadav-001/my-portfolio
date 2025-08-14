@@ -42,12 +42,15 @@ function App() {
 
   return (
     <div className="container">
-
-      <h2>Hi I am {aboutData.name}</h2>
+      {/* About */}
       <About />
-      <WorkExperience />
-      <Education />
-      <Projects />
+      {/* WorkExperience */}
+      {/* <WorkExperience /> */}
+      {/* Education */}
+      {/* <Education /> */}
+      {/* Projects */}
+      {/* <Projects /> */}
+      {/* Dock */}
       <Dock
         items={items}
         panelHeight={55}
