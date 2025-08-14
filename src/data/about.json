@@ -1,6 +1,7 @@
 {
-  "name": "Vishal Yadav",
-  "role": "Full Stack Developer",
+  "name": "Your Name",
+  "role": "Software Engineer turned Entrepreneur.",
+  "intro": "I love building things and helping people. Very active on Twitter.",
   "experience": "4.5 years",
   "description": "Full-stack developer with nearly 5 years of experience since October 2020, specializing in building scalable, high-performance web applications using Angular, React, Node.js, Express.js, and MongoDB. Proven expertise in frontend frameworks, state management (NgRx, RxJS), and test automation (Jasmine, Karma, Jest, Cypress). Skilled in migrating legacy systems to modern architectures, enhancing UI/UX, and optimizing performance. Recognized for problem-solving, delivering quality code, and collaborating across teams to meet business goals.",
   "github": "https://github.com/Vishal-Yadav-001",

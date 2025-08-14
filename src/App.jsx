@@ -1,18 +1,14 @@
 import { useTheme } from "./context/ThemeContext";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaMoon,
-  FaSun,
-} from "react-icons/fa";
-import {
-  VscHome,
-} from "react-icons/vsc";
+import { FaGithub, FaLinkedin, FaMoon, FaSun } from "react-icons/fa";
+import { VscHome } from "react-icons/vsc";
 import Dock from "./components/Dock/Docks";
 import "./App.css";
 import aboutData from "./data/about.json";
 import { MdEmail } from "react-icons/md";
-
+import About from "./sections/about";
+import WorkExperience from "./sections/workexperience";
+import Education from "./sections/education";
+import Projects from "./sections/projects";
 function App() {
   const { theme, toggleTheme } = useTheme(); // ✅ Fixed
 
@@ -33,7 +29,7 @@ function App() {
       onClick: () => window.open(aboutData.linkedin, "_blank"),
     },
     {
-      icon: <MdEmail size={18}  />,
+      icon: <MdEmail size={18} />,
       label: "Email",
       onClick: () => window.open(aboutData.email, "_blank"),
     },
@@ -46,7 +42,12 @@ function App() {
 
   return (
     <div className="container">
-      Hello
+
+      <h2>Hi I am {aboutData.name}</h2>
+      <About />
+      <WorkExperience />
+      <Education />
+      <Projects />
       <Dock
         items={items}
         panelHeight={55}

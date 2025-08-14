@@ -1,7 +1,65 @@
 [
   {
-    "title": "Portfolio Website",
-    "description": "A personal website built using React and JSON-based data.",
-    "link": "https://your-portfolio-link.com"
+    "title": "Best Games Store",
+    "tagline": "Game Discovery Platform",
+    "description": "A sleek, responsive web application built with Angular and Angular Material, designed to help gamers explore and discover their next favorite title from a database of over 500,000 games. Features a modern dark theme for an immersive feel.",
+    "features": [
+      "Advanced Search & Filtering – Quickly find games by title or preference",
+      "Dynamic Game Cards – Displaying cover art, platforms, and quick info at a glance",
+      "Detailed Game Pages – Includes release dates, supported platforms, publishers, official links, descriptions, and Metacritic scores",
+      "Media-Rich Experience – Tabs for additional content such as screenshots and details",
+      "Optimized Performance – Smooth navigation and fast data loading"
+    ],
+    "techStack": [
+      "Angular",
+      "Angular Material",
+      "REST APIs",
+      "CSS (Dark Theme)",
+      "Responsive Design"
+    ],
+    "keyContribution": "Developed the entire front-end using Angular, integrated with a gaming API for real-time data, and optimized UI/UX for clarity and engagement."
+  },
+  {
+    "title": "League of Legends Champion Directory",
+    "tagline": "A fan-made, interactive champion database for League of Legends.",
+    "description": "A sleek, single-page application that serves as a comprehensive directory for League of Legends champions. The platform provides a rich, data-driven experience with detailed statistics, robust search functionality, and a user-friendly interface. The dark theme and clean layout are designed to offer an immersive browsing experience.",
+    "features": [
+      "Dynamic Champion Cards – Browse a grid of champions with key information like name and HP",
+      "Advanced Search & Filtering – Quickly find champions by name and sort them by different attributes",
+      "Detailed Statistics Table – View in-depth stats for favorited champions, including Armor, Attack Damage, and Spell Block",
+      "Watchlist Functionality – Add champions to a personal list for quick access and detailed comparison",
+      "Responsive Design – The interface is optimized for both desktop and mobile viewing"
+    ],
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React (or a similar modern front-end framework)",
+      "External API (e.g., Data Dragon)",
+      "Responsive Design"
+    ],
+    "keyContribution": "Developed the front-end user interface and state management, integrated with a public League of Legends API to fetch champion data, and implemented search, sorting, and watchlist functionality."
+  },
+  {
+    "title": "SkillScore",
+    "tagline": "An interactive, multi-topic quiz platform for developers.",
+    "description": "A responsive web application designed to help users test and improve their knowledge across various technology stacks. The platform features a clean user interface and offers a customizable quiz experience with timed questions and instant scoring.",
+    "features": [
+      "Dynamic Quiz Topics – Select from HTML, JavaScript, SQL, DevOps, and more",
+      "Customizable Quiz Settings – Set your preferred difficulty level and number of questions",
+      "Timed Question System – Each question is timed to encourage quick thinking",
+      "Progressive Web Interface – Allows users to resume a quiz after an unexpected browser or tab closure",
+      "Instant Feedback and Scoring – Receive an immediate score and performance summary upon completion"
+    ],
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "React Router",
+      "REST APIs",
+      "Local Storage"
+    ],
+    "keyContribution": "Developed the user interface and core quiz logic, implemented dynamic topic and question loading, and integrated local storage for session management and quiz resumption."
   }
 ]

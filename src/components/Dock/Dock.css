@@ -1,8 +1,12 @@
 .dock-outer {
   margin: 0 0.5rem;
-  display: flex;
-  max-width: 100%;
-  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* make sure it’s above other elements */
+
+
 }
 
 .dock-panel {

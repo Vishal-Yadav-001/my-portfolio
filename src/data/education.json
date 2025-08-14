@@ -9,8 +9,10 @@
     "cgpa": "8.35"
   },
   {
-    "qualification": "Higher Secondary (12th Grade)",
+    "degree": "Senior Secondary",
     "institution": "Kendriya Vidyalaya No. 3, Patiala Cantt",
-    "location": "Punjab, India"
+    "location": "Punjab, India",
+     "startDate": "2015",
+    "endDate": "2016"
   }
 ]

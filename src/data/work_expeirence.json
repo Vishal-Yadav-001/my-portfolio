@@ -1,38 +1,39 @@
 [
-    {
-  "company": "Infosys",
-  "role": "Software Engineer",
-  "client": "CMA CGM",
-  "project": "AQUA – Freight Quotation Digitization Platform",
-  "location": "Pune, India",
-  "startDate": "2020-10",
-  "endDate": "2022-08",
-  "description": "Digitized the freight quotation process for CMA CGM by developing a modern web application from scratch using Angular and PrimeNG, significantly improving efficiency and user experience.",
-  "achievements": [
-    "Developed a freight quotation generation system from the ground up using Angular and PrimeNG, reducing quotation processing time by 70% by replacing the legacy manual process for booking freight and ships.",
-    "Developed the user interface from scratch using Angular and PrimeNG, resulting in a more efficient and user-friendly experience.",
-    "Wrote unit and integration test cases using Jasmine and Karma to ensure high-quality, bug-free releases.",
-    "Received Infosys Insta Award for outstanding contribution to the development and successful release of the AQUA MVP.",
-    "Provided post-launch support, resolving production issues and ensuring smooth operations during the MVP’s initial adoption phase.",
-    "Contributed to incremental feature updates and enhancements post-MVP, improving system performance, usability, and customer satisfaction."
-  ],
-  "technologies": [
-    "Angular",
-    "PrimeNG",
-    "HTML5",
-    "CSS3",
-    "TypeScript",
-    "JavaScript",
-    "Jasmine",
-    "Karma"
-  ]
-},
-{
+  {
+    "company": "Infosys",
+    "role": "Software Engineer",
+    "client": "CMA CGM",
+    "project": "AQUA – Freight Quotation Digitization Platform",
+    "location": "Mohali, India",
+    "startDate": "Oct-2020",
+    "endDate": "Aug-2022",
+    "description": "Digitized the freight quotation process for CMA CGM by developing a modern web application from scratch using Angular and PrimeNG, significantly improving efficiency and user experience.",
+    "achievements": [
+      "Developed a freight quotation generation system from the ground up using Angular and PrimeNG, reducing quotation processing time by 70% by replacing the legacy manual process for booking freight and ships.",
+      "Developed the user interface from scratch using Angular and PrimeNG, resulting in a more efficient and user-friendly experience.",
+      "Wrote unit and integration test cases using Jasmine and Karma to ensure high-quality, bug-free releases.",
+      "Received Infosys Insta Award for outstanding contribution to the development and successful release of the AQUA MVP.",
+      "Provided post-launch support, resolving production issues and ensuring smooth operations during the MVP’s initial adoption phase.",
+      "Contributed to incremental feature updates and enhancements post-MVP, improving system performance, usability, and customer satisfaction."
+    ],
+    "technologies": [
+      "Angular",
+      "PrimeNG",
+      "HTML5",
+      "CSS3",
+      "TypeScript",
+      "JavaScript",
+      "Jasmine",
+      "Karma"
+    ]
+  },
+  {
     "company": "3Pillar Global Pvt Ltd",
     "position": "Senior Software Engineer",
     "client": "Cisco",
+    "location": "Noida, India",
     "project": "Cisco SCC (Security Cloud Control)",
-    "startDate": "[Start Date]",
+    "startDate": "Sept-2022",
     "endDate": "Present",
     "description": "Led the modernization of Cisco's flagship security platform, migrating a legacy codebase to a modern tech stack. Implemented advanced state management and testing frameworks, significantly improving application performance and user experience.",
     "responsibilities": [
@@ -56,5 +57,4 @@
       "AngularJS"
     ]
   }
-
 ]
