@@ -1,44 +1,26 @@
 {
   "skills": {
-    "frontend": [
+    "techSkills": [
       "React",
       "Angular",
-      "AngularJS",
-      "PrimeNG",
-      "HTML5",
-      "CSS3",
-      "SCSS",
+      "TypeScript",
       "JavaScript",
-      "TypeScript"
-    ],
-    "backend": [
+      "HTML/CSS",
       "Node.js",
       "Express.js",
-      "MongoDB"
-    ],
-    "stateManagement": [
+      "MongoDB",
       "NgRx",
       "RxJS",
-      "Facade-Observer Pattern"
-    ],
-    "testing": [
-      "Jasmine",
-      "Karma",
       "Jest",
-      "Cypress"
-    ],
-    "tooling": [
+      "Cypress",
       "Nx",
-      "Git",
-      "Responsive Web Design"
+      "Git"
     ],
     "softSkills": [
       "Problem Solving",
       "UI/UX Enhancement",
       "Performance Optimization",
-      "Cross-team Collaboration",
-      "Legacy Code Migration",
-      "Post-launch Support"
+      "Collaboration"
     ]
   }
 }

@@ -9,6 +9,7 @@ import About from "./sections/about";
 import WorkExperience from "./sections/workexperience";
 import Education from "./sections/education";
 import Projects from "./sections/projects";
+import Skills from "./sections/skills";
 function App() {
   const { theme, toggleTheme } = useTheme(); // ✅ Fixed
 
@@ -44,6 +45,8 @@ function App() {
     <div className="container">
       {/* About */}
       <About />
+      {/*Skills*/}
+      <Skills />
       {/* WorkExperience */}
       {/* <WorkExperience /> */}
       {/* Education */}
